@@ -1,20 +1,29 @@
 {
-  "Home" : {
-  "welcome": "Welcome!",
-  "login": "Login",
-  "logout": "Logout",
-  "signup": "Sign Up",
-  "email": "Email Address",
-  "password": "Password",
-  "confirm_password": "Confirm Password",
-  "submit": "Submit",
-  "cancel": "Cancel",
-  "home": "Home",
-  "profile": "Profile",
-  "settings": "Settings",
-  "language": "Language",
-  "english": "English",
-  "japanese": "Japanese"
+  "Home": {
+    "welcome": "Welcome!",
+    "login": "Login",
+    "logout": "Logout",
+    "signup": "Sign Up",
+    "email": "Email Address",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "home": "Home",
+    "profile": "Profile",
+    "settings": "Settings",
+    "language": "Language",
+    "english": "English",
+    "japanese": "Japanese"
+  },
+  "GsapLib": {
+    "titleOne": "Kinh nghiệm du lịch Bali",
+    "titleConentOne": "Bali là hòn đảo xinh đẹp thuộc Indonesia, sở hữu vẻ đẹp nổi tiếng toàn thế giới. Được ví như “thiên đường trên mặt đất”, Bali hiện đang nằm trong danh sách “phải đi” của du khách khắp năm châu. Nếu bạn lỡ “chao đảo” trước vẻ đẹp của hòn đảo này và đang lên kế hoạch khám phá thì bài viết này chính xác là dành cho bạn rồi! Hãy đọc thật kỹ đến cuối nhé, vì Traveloka sẽ mang đến đầy đủ kinh nghiệm du lịch Bali tự túc để chuyến đi của bạn thuận tiện hơn!",
+    "titleOne2": "Tự túc từ A - Z năm 2026",
+    "titleTwo": "Bali ở đâu? Thông tin về Bali",
+    "titleThree": "Thời điểm di du lịch Bali tự túc lý tưởng",
+    "titleContentThree": "Mùa nào ở Bali cũng đẹp, nhưng cũng có một số thời điểm Bali cực đông khách do rơi vào khoảng thời gian nghỉ của phần đông khách du lịch, hoặc một số tháng thời tiết đặc biệt lý tưởng cho các chuyến tham quan. Để có trải nghiệm tích cực và vui vẻ nhất thì bạn hãy chú ý lựa chọn thời điểm ghé thăm hòn đảo xinh đẹp này nhé.",
+    "titleContentFour": "Bãi biển Kuta là một trong những điểm đến nổi tiếng nhất tại Bali, thu hút du khách nhờ bờ cát trắng mịn trải dài và làn nước biển trong xanh. Nằm cách sân bay Ngurah Rai chỉ khoảng 15 phút lái xe, Kuta không chỉ là thiên đường cho những người yêu thích lướt sóng mà còn là trung tâm của các hoạt động giải trí sôi động, từ các quán bar ven biển đến nhà hàng và cửa hàng thời trang.",
+    "titleFour": "Bãi biển Kuta"
   }
-  
 }
