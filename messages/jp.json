@@ -1,0 +1,19 @@
+{
+   "Home" : {
+     "welcome": "ようこそ！",
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "signup": "サインアップ",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "confirm_password": "パスワードを確認",
+    "submit": "送信",
+    "cancel": "キャンセル",
+    "home": "ホーム",
+    "profile": "プロフィール",
+    "settings": "設定",
+    "language": "言語",
+    "english": "英語",
+    "japanese": "日本語"
+   }
+}

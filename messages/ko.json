@@ -1,0 +1,19 @@
+{
+  "Home" : {
+    "welcome": "환영합니다!",
+  "login": "로그인",
+  "logout": "로그아웃",
+  "signup": "회원가입",
+  "email": "이메일 주소",
+  "password": "비밀번호",
+  "confirm_password": "비밀번호 확인",
+  "submit": "제출",
+  "cancel": "취소",
+  "home": "홈",
+  "profile": "프로필",
+  "settings": "설정",
+  "language": "언어",
+  "english": "영어",
+  "japanese": "일본어"
+  }
+}
