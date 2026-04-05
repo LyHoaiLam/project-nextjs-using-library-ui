@@ -88,13 +88,6 @@ article {
   }
 }
 
-.unsplash {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 8em 0;
-}
-
 /* Reduce motion: fall back to normal scroll */
 @media (prefers-reduced-motion: reduce) {
   .smooth-wrapper {

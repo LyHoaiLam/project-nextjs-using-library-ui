@@ -14,7 +14,8 @@
     "settings": "Cài đặt",
     "language": "Ngôn ngữ",
     "english": "Tiếng Anh",
-    "japanese": "Tiếng Nhật"
+    "japanese": "Tiếng Nhật",
+    "visit": "Website du lịch"
   },
   "GsapLib": {
     "titleOne": "Kinh nghiệm du lịch Bali",
@@ -25,5 +26,11 @@
     "titleContentThree": "Mùa nào ở Bali cũng đẹp, nhưng cũng có một số thời điểm Bali cực đông khách do rơi vào khoảng thời gian nghỉ của phần đông khách du lịch, hoặc một số tháng thời tiết đặc biệt lý tưởng cho các chuyến tham quan. Để có trải nghiệm tích cực và vui vẻ nhất thì bạn hãy chú ý lựa chọn thời điểm ghé thăm hòn đảo xinh đẹp này nhé.",
     "titleContentFour": "Bãi biển Kuta là một trong những điểm đến nổi tiếng nhất tại Bali, thu hút du khách nhờ bờ cát trắng mịn trải dài và làn nước biển trong xanh. Nằm cách sân bay Ngurah Rai chỉ khoảng 15 phút lái xe, Kuta không chỉ là thiên đường cho những người yêu thích lướt sóng mà còn là trung tâm của các hoạt động giải trí sôi động, từ các quán bar ven biển đến nhà hàng và cửa hàng thời trang.",
     "titleFour": "Bãi biển Kuta"
+  },
+  "GsapLib-ui02": {
+    "descriptionTheEiffelTower": "Tháp Eiffel là một công trình tháp lưới bằng sắt nằm trên khu Champ de Mars ở Paris, Pháp. Được thiết kế bởi Gustave Eiffel, công trình này được xây dựng như là điểm nhấn trung tâm của Hội chợ Thế giới năm 1889 và từ đó đã trở thành một biểu tượng văn hóa toàn cầu. Với chiều cao 330 mét (1.083 feet), đây là công trình cao nhất ở Paris và là biểu tượng của sự hiện đại. Tháp đã đón 6,91 triệu lượt khách tham quan vào năm 2015 và được công nhận là Di sản Thế giới của UNESCO.",
+    "descriptionMuCangChai": "Mù Cang Chải là một huyện vùng cao thuộc tỉnh Yên Bái, nổi tiếng với những thửa ruộng bậc thang đẹp như tranh vẽ và sự phong phú trong văn hóa của các cộng đồng dân tộc thiểu số. Nơi đây cách Hà Nội khoảng 300 km về phía Tây Bắc, thu hút đông đảo du khách nhờ vẻ đẹp thiên nhiên hùng vĩ và các lễ hội đặc sắc như Festival Khèn Mông và Lễ hội hoa Tớ Dày. Mù Cang Chải không chỉ là điểm đến lý tưởng cho những ai yêu thích thiên nhiên mà còn là nơi để khám phá văn hóa độc đáo của đồng bào dân tộc H’Mông.",
+    "descriptionTokyo": "Tokyo (東京都) là thủ đô và là một trong 47 tỉnh của Nhật Bản, nằm ở vùng Kanto, phía đông của đảo Honshu. Đây là nơi đặt Hoàng cung và các cơ quan chính phủ của Nhật Bản. Tokyo không chỉ là một đô thị riêng lẻ mà còn là trung tâm của Vùng thủ đô Tokyo, với dân số khoảng 35-39 triệu người, là vùng đô thị đông dân nhất thế giới.",
+    "descriptionNewYork": "New York là thành phố đông dân nhất của Hoa Kỳ và là một trong những trung tâm tài chính, văn hóa, thời trang và giải trí hàng đầu thế giới. Nằm ở bang New York, thành phố này nổi tiếng với những biểu tượng mang tính toàn cầu như Tượng Nữ thần Tự do, Quảng trường Thời Đại, Công viên Trung tâm và các tòa nhà chọc trời ấn tượng. New York không chỉ thu hút du khách bởi nhịp sống sôi động và vẻ đẹp hiện đại, mà còn bởi sự đa dạng văn hóa, ẩm thực phong phú và những trải nghiệm độc đáo ở từng khu phố. Đây là điểm đến lý tưởng cho những ai muốn khám phá một thành phố không bao giờ ngủ."
   }
 }
