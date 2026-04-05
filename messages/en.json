@@ -14,7 +14,8 @@
     "settings": "Settings",
     "language": "Language",
     "english": "English",
-    "japanese": "Japanese"
+    "japanese": "Japanese",
+    "visit": "Website du lịch"
   },
   "GsapLib": {
     "titleOne": "Kinh nghiệm du lịch Bali",
@@ -25,5 +26,11 @@
     "titleContentThree": "Mùa nào ở Bali cũng đẹp, nhưng cũng có một số thời điểm Bali cực đông khách do rơi vào khoảng thời gian nghỉ của phần đông khách du lịch, hoặc một số tháng thời tiết đặc biệt lý tưởng cho các chuyến tham quan. Để có trải nghiệm tích cực và vui vẻ nhất thì bạn hãy chú ý lựa chọn thời điểm ghé thăm hòn đảo xinh đẹp này nhé.",
     "titleContentFour": "Bãi biển Kuta là một trong những điểm đến nổi tiếng nhất tại Bali, thu hút du khách nhờ bờ cát trắng mịn trải dài và làn nước biển trong xanh. Nằm cách sân bay Ngurah Rai chỉ khoảng 15 phút lái xe, Kuta không chỉ là thiên đường cho những người yêu thích lướt sóng mà còn là trung tâm của các hoạt động giải trí sôi động, từ các quán bar ven biển đến nhà hàng và cửa hàng thời trang.",
     "titleFour": "Bãi biển Kuta"
+  },
+  "GsapLib-ui02": {
+    "descriptionTheEiffelTower": "The Eiffel Tower is a lattice tower located on the Champ de Mars in Paris, France. Designed by Gustave Eiffel, it was constructed as the centerpiece of the 1889 World Is Fair and has since become a global cultural icon. Standing at 330 meters (1,083 feet) tall, it is the tallest structure in Paris and a symbol of modernity. The tower received 6.91 million visitors in 2015 and is recognized as a UNESCO World Heritage Site",
+    "descriptionMuCangChai": "Mu Cang Chai is a mountainous district in Yen Bai Province, famous for its breathtaking terraced rice fields and the rich cultural heritage of its ethnic minority communities. Located about 300 km northwest of Hanoi, it attracts many visitors with its majestic natural scenery and unique festivals such as the Hmong Khen Festival and the To Day Flower Festival. Mu Cang Chai is not only an ideal destination for nature lovers but also a place to explore the distinctive culture of the Hmong people.",
+    "descriptionTokyo": "Tokyo (東京都) is the capital of Japan and one of its 47 prefectures, located in the Kanto region on the eastern side of Honshu Island. It is home to the Imperial Palace and the central government offices of Japan. Tokyo is not just a single city, but also the center of the Greater Tokyo Area, with a population of around 35 to 39 million people, making it the most populous metropolitan area in the world.",
+    "descriptionNewYork": "New York is the most populous city in the United States and one of the world’s leading centers for finance, culture, fashion, and entertainment. Located in the state of New York, the city is famous for iconic landmarks such as the Statue of Liberty, Times Square, Central Park, and its impressive skyline of skyscrapers. New York attracts visitors not only with its vibrant energy and modern beauty, but also with its cultural diversity, rich cuisine, and unique experiences in every neighborhood. It is an ideal destination for anyone who wants to explore the city that never sleeps."
   }
 }
