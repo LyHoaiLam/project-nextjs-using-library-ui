@@ -2,8 +2,8 @@
 
 export const title = "Writing Text"
 
-import { motion, type Transition, type UseInViewOptions, useInView } from "motion/react"
 import * as React from "react"
+import { motion, type Transition, type UseInViewOptions, useInView } from "motion/react"
 
 type WritingTextProps = Omit<React.ComponentProps<"span">, "children"> & {
   transition?: Transition
