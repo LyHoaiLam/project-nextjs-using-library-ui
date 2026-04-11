@@ -1,4 +1,5 @@
 "use client"
+
 import { motion } from "motion/react"
 
 type Direction = "left" | "right" | "top" | "bottom"
