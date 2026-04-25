@@ -1,0 +1,247 @@
+:root {
+  --surface-1: #fff;
+  --surface-2: hsl(240 11% 96%);
+  --text-1: hsl(240 3% 12%);
+  --text-2: hsl(240 2% 44%);
+  --radius: 14px;
+  --gap: 24px;
+  --pad: 18px;
+  --card-min-block-size: 360px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    Helvetica,
+    Arial,
+    "Apple Color Emoji",
+    "Segoe UI Emoji";
+  -webkit-font-smoothing: antialiased;
+  background: var(--surface-2);
+}
+
+.bento-section {
+  display: grid;
+  place-items: center;
+  padding: 48px 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 366px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    max-width: 695px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 975px;
+  }
+}
+
+header {
+  padding: 12px 0 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  font-weight: 700;
+  color: var(--text-1);
+  line-height: 1.15;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h3,
+h4 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+small {
+  font-weight: 600;
+  color: var(--text-2);
+}
+
+.bento-grid {
+  --columns: 1;
+  display: grid;
+  gap: calc(var(--gap) + 8px);
+  grid-template-columns: repeat(var(--columns), 1fr);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .bento-grid {
+    --columns: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bento-grid {
+    --columns: 12;
+  }
+}
+
+.card {
+  display: grid;
+  place-items: center;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  color: var(--text-1);
+  text-decoration: none;
+  background: var(--surface-1);
+  border-radius: var(--radius);
+  min-block-size: var(--card-min-block-size);
+  overflow: clip;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.card .content {
+  display: grid;
+  place-items: center start;
+  gap: 10px;
+  height: 100%;
+  padding: 24px;
+  grid-template-rows: auto 1fr auto;
+  width: 100%;
+}
+
+.card.hero {
+  grid-column: span var(--columns);
+}
+
+.card:not(.hero) {
+  grid-template-rows: 1fr 1fr;
+}
+
+.card:not(.hero) .visual {
+  overflow: clip;
+  width: 100%;
+  height: 100%;
+}
+
+.card:not(.hero) .visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #fff;
+  display: block;
+}
+
+.card.hero .visual {
+  width: 100%;
+  height: 100%;
+}
+
+.card.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #fff;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .card.hero {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    grid-column: span calc(var(--columns) / 3);
+  }
+
+  .card.hero {
+    grid-column: span var(--columns);
+    min-block-size: calc(var(--card-min-block-size) * 1.5);
+  }
+
+  .card:nth-child(n + 2):nth-child(-n + 5) {
+    grid-column: span calc(var(--columns) / 2);
+    min-block-size: calc(var(--card-min-block-size) * 1.25);
+  }
+}
+
+/* Hover zoom */
+@media (prefers-reduced-motion: no-preference) {
+  .card img {
+    opacity: 0;
+    transition:
+      transform 0.4s ease,
+      opacity 0.6s ease;
+  }
+
+  .card:hover img {
+    transform: scale(1.03);
+  }
+
+  .card.hero img {
+    animation: fadeIn 1s ease forwards;
+  }
+}
+
+/* Reveal animation (quan trọng nhất) */
+@media (prefers-reduced-motion: no-preference) {
+  .card:not(.hero) {
+    opacity: 0;
+    will-change: transform, opacity;
+  }
+
+  .card.reveal {
+    animation:
+      fadeIn 660ms ease forwards,
+      slideUp 1000ms cubic-bezier(0, 0, 0.1, 1) forwards;
+  }
+
+  .card.reveal img {
+    animation: fadeIn 1s ease forwards;
+  }
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(100px);
+    }
+
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+}

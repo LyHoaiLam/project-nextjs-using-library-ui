@@ -32,5 +32,18 @@
     "descriptionMuCangChai": "Mù Cang Chải là một huyện vùng cao thuộc tỉnh Yên Bái, nổi tiếng với những thửa ruộng bậc thang đẹp như tranh vẽ và sự phong phú trong văn hóa của các cộng đồng dân tộc thiểu số. Nơi đây cách Hà Nội khoảng 300 km về phía Tây Bắc, thu hút đông đảo du khách nhờ vẻ đẹp thiên nhiên hùng vĩ và các lễ hội đặc sắc như Festival Khèn Mông và Lễ hội hoa Tớ Dày. Mù Cang Chải không chỉ là điểm đến lý tưởng cho những ai yêu thích thiên nhiên mà còn là nơi để khám phá văn hóa độc đáo của đồng bào dân tộc H’Mông.",
     "descriptionTokyo": "Tokyo (東京都) là thủ đô và là một trong 47 tỉnh của Nhật Bản, nằm ở vùng Kanto, phía đông của đảo Honshu. Đây là nơi đặt Hoàng cung và các cơ quan chính phủ của Nhật Bản. Tokyo không chỉ là một đô thị riêng lẻ mà còn là trung tâm của Vùng thủ đô Tokyo, với dân số khoảng 35-39 triệu người, là vùng đô thị đông dân nhất thế giới.",
     "descriptionNewYork": "New York là thành phố đông dân nhất của Hoa Kỳ và là một trong những trung tâm tài chính, văn hóa, thời trang và giải trí hàng đầu thế giới. Nằm ở bang New York, thành phố này nổi tiếng với những biểu tượng mang tính toàn cầu như Tượng Nữ thần Tự do, Quảng trường Thời Đại, Công viên Trung tâm và các tòa nhà chọc trời ấn tượng. New York không chỉ thu hút du khách bởi nhịp sống sôi động và vẻ đẹp hiện đại, mà còn bởi sự đa dạng văn hóa, ẩm thực phong phú và những trải nghiệm độc đáo ở từng khu phố. Đây là điểm đến lý tưởng cho những ai muốn khám phá một thành phố không bao giờ ngủ."
+  },
+  "TimeLine": {
+    "title": "Ca64p nhật gân đây",
+    "dateOne": "18-08-2022",
+    "desOne": "Đây là đoạn mô tả mẫu cho mốc thời gian đầu tiên, trình bày nội dung ngắn gọn và rõ ràng.",
+    "dateTwo": "19-08-2022",
+    "desTwo": "Đây là đoạn mô tả mẫu ngắn.",
+    "dateThree": "20-08-2022",
+    "desThree": "Đây là đoạn mô tả mẫu cho mốc thời gian thứ ba."
+  },
+  "TextAnimation": {
+    "title": "Component FAQ Tailwind CSS miễn phí",
+    "description": "Một giao diện hỗ trợ người dùng gọn gàng, có cấu trúc rõ ràng và dễ điều hướng, trong đó thông tin được chia thành các khối logic kèm biểu tượng và danh sách các câu hỏi phổ biến."
   }
 }
