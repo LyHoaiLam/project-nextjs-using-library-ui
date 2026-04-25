@@ -1,0 +1,21 @@
+.hoverCardTL:hover {
+  height: 512px !important;
+  width: 512px !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: auto !important;
+  bottom: auto !important;
+  z-index: 10 !important;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2) !important;
+}
+
+.hoverCardBR:hover {
+  height: 512px !important;
+  width: 512px !important;
+  top: auto !important;
+  left: auto !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  z-index: 10 !important;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2) !important;
+}

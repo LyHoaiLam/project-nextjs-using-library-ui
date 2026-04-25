@@ -1,0 +1,52 @@
+/* Local styles only for this component */
+.sc3d-main {
+  width: 100%;
+  height: 700vh;
+  background: #ddd;
+  overflow: hidden;
+}
+
+.sc3d-carousel {
+  width: 100vw;
+  height: 100vh;
+  perspective: 300px;
+  overflow: hidden;
+  opacity: 0;
+  position: relative;
+}
+
+/* card */
+.sc3d-card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 60%;
+  height: 80%;
+  max-width: 400px;
+  max-height: 600px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-family:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+    monospace;
+  color: #fff;
+  will-change: transform, opacity, filter;
+}
+
+/* arrow */
+.sc3d-arrow {
+  position: fixed;
+  bottom: 5vh;
+  left: 50%;
+  height: 8vh;
+  transform: translateX(-50%);
+}
+
+/* IMPORTANT:
+   Demo gốc set body overflow:hidden rồi sau intro mới mở scroll.
+   Trong React, CSS global như vậy dễ đụng app khác, nên mình KHÔNG set body ở CSS.
+   GSAP sẽ set body overflow trong initST giống code gốc.
+*/

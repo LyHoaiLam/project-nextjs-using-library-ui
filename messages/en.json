@@ -36,19 +36,32 @@
     "ogDescription": "Discover Bantianyao: fresh fish, quality seafood, authentic preparation. Beautiful space, attentive service, and quick table reservations."
   },
   "GsapLib": {
-    "titleOne": "Kinh nghiệm du lịch Bali",
-    "titleConentOne": "Bali là hòn đảo xinh đẹp thuộc Indonesia, sở hữu vẻ đẹp nổi tiếng toàn thế giới. Được ví như “thiên đường trên mặt đất”, Bali hiện đang nằm trong danh sách “phải đi” của du khách khắp năm châu. Nếu bạn lỡ “chao đảo” trước vẻ đẹp của hòn đảo này và đang lên kế hoạch khám phá thì bài viết này chính xác là dành cho bạn rồi! Hãy đọc thật kỹ đến cuối nhé, vì Traveloka sẽ mang đến đầy đủ kinh nghiệm du lịch Bali tự túc để chuyến đi của bạn thuận tiện hơn!",
-    "titleOne2": "Tự túc từ A - Z năm 2026",
-    "titleTwo": "Bali ở đâu? Thông tin về Bali",
-    "titleThree": "Thời điểm di du lịch Bali tự túc lý tưởng",
-    "titleContentThree": "Mùa nào ở Bali cũng đẹp, nhưng cũng có một số thời điểm Bali cực đông khách do rơi vào khoảng thời gian nghỉ của phần đông khách du lịch, hoặc một số tháng thời tiết đặc biệt lý tưởng cho các chuyến tham quan. Để có trải nghiệm tích cực và vui vẻ nhất thì bạn hãy chú ý lựa chọn thời điểm ghé thăm hòn đảo xinh đẹp này nhé.",
-    "titleContentFour": "Bãi biển Kuta là một trong những điểm đến nổi tiếng nhất tại Bali, thu hút du khách nhờ bờ cát trắng mịn trải dài và làn nước biển trong xanh. Nằm cách sân bay Ngurah Rai chỉ khoảng 15 phút lái xe, Kuta không chỉ là thiên đường cho những người yêu thích lướt sóng mà còn là trung tâm của các hoạt động giải trí sôi động, từ các quán bar ven biển đến nhà hàng và cửa hàng thời trang.",
-    "titleFour": "Bãi biển Kuta"
+    "titleOne": "Bali Travel Experience",
+    "titleConentOne": "Bali is a beautiful island in Indonesia, famous around the world for its stunning scenery. Often described as “heaven on earth,” Bali is now on the must-visit list of travelers from all over the world. If you have fallen in love with the beauty of this island and are planning to explore it, this article is exactly for you! Make sure to read carefully until the end, because Traveloka will provide a complete guide to independent Bali travel to make your trip more convenient!",
+    "titleOne2": "A Complete A–Z Independent Travel Guide for 2026",
+    "titleTwo": "Where Is Bali? Information About Bali",
+    "titleThree": "The Best Time for an Independent Trip to Bali",
+    "titleContentThree": "Bali is beautiful in every season, but there are certain times when the island becomes extremely crowded due to holiday periods for many tourists, as well as some months when the weather is especially ideal for sightseeing trips. To have the most positive and enjoyable experience, make sure to choose the right time to visit this beautiful island.",
+    "titleContentFour": "Kuta Beach is one of the most famous destinations in Bali, attracting visitors with its long stretch of soft white sand and clear blue seawater. Located only about a 15-minute drive from Ngurah Rai Airport, Kuta is not only a paradise for surfing lovers but also a hub of lively entertainment activities, from beachfront bars to restaurants and fashion stores.",
+    "titleFour": "Kuta Beach"
   },
   "GsapLib-ui02": {
     "descriptionTheEiffelTower": "The Eiffel Tower is a lattice tower located on the Champ de Mars in Paris, France. Designed by Gustave Eiffel, it was constructed as the centerpiece of the 1889 World Is Fair and has since become a global cultural icon. Standing at 330 meters (1,083 feet) tall, it is the tallest structure in Paris and a symbol of modernity. The tower received 6.91 million visitors in 2015 and is recognized as a UNESCO World Heritage Site",
     "descriptionMuCangChai": "Mu Cang Chai is a mountainous district in Yen Bai Province, famous for its breathtaking terraced rice fields and the rich cultural heritage of its ethnic minority communities. Located about 300 km northwest of Hanoi, it attracts many visitors with its majestic natural scenery and unique festivals such as the Hmong Khen Festival and the To Day Flower Festival. Mu Cang Chai is not only an ideal destination for nature lovers but also a place to explore the distinctive culture of the Hmong people.",
     "descriptionTokyo": "Tokyo (東京都) is the capital of Japan and one of its 47 prefectures, located in the Kanto region on the eastern side of Honshu Island. It is home to the Imperial Palace and the central government offices of Japan. Tokyo is not just a single city, but also the center of the Greater Tokyo Area, with a population of around 35 to 39 million people, making it the most populous metropolitan area in the world.",
     "descriptionNewYork": "New York is the most populous city in the United States and one of the world’s leading centers for finance, culture, fashion, and entertainment. Located in the state of New York, the city is famous for iconic landmarks such as the Statue of Liberty, Times Square, Central Park, and its impressive skyline of skyscrapers. New York attracts visitors not only with its vibrant energy and modern beauty, but also with its cultural diversity, rich cuisine, and unique experiences in every neighborhood. It is an ideal destination for anyone who wants to explore the city that never sleeps."
+  },
+  "TimeLine": {
+    "title": "Recent Updates",
+    "dateOne": "18-08-2022",
+    "desOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores incidunt blanditiis dignissimos.",
+    "dateTwo": "19-08-2022",
+    "desTwo": "Lorem ipsum dolor sit amet.",
+    "dateThree": "20-08-2022",
+    "desThree": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est?"
+  },
+  "TextAnimation": {
+    "title": "Free Tailwind CSS FAQ Component",
+    "description": "A clean, structured, and easy-to-navigate user support interface where information is divided into logical blocks with icons and lists of popular questions."
   }
 }

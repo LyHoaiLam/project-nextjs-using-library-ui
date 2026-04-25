@@ -1,2 +1,5 @@
 export * from "./icons/IconPlay"
 export * from "./icons/IconStar"
+export * from "./icons/IconNext"
+export * from "./icons/IconPrevious"
+export * from "./icons/IconCirkleTimeLine"
