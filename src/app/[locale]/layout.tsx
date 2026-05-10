@@ -118,7 +118,7 @@ export default async function RootLayout({
       suppressHydrationWarning
       className={`${geistSans.variable} ${geistMono.variable} ${dancingScript.variable} h-full antialiased`}
     >
-      <head />
+      {/* <head /> */}
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider
@@ -127,7 +127,7 @@ export default async function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <Header />
+            {/* <Header /> */}
             {children}
           </ThemeProvider>
         </NextIntlClientProvider>
