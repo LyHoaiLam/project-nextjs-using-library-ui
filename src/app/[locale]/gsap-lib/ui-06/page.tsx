@@ -111,7 +111,8 @@ export default function ScrollCarousel3D() {
           0
         )
 
-      function initST(timeline) {
+      // function initST(timeline) {
+      function initST(timeline: gsap.core.Timeline) {
         if (reduceMotion) {
           // nếu reduce motion: show carousel luôn, không pin/scrub
           gsap.set(document.body, { overflow: "auto" })
