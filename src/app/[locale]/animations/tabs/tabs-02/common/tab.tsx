@@ -25,7 +25,8 @@ export default function SharedLayoutAnimation({ tabs }: Props) {
               key={item.label}
               initial={false}
               animate={{
-                backgroundColor: item === selectedTab ? "#686868" : "#eee0",
+                backgroundColor: item === selectedTab ? "red" : "gray",
+                color: item === selectedTab ? "white" : "black",
               }}
               style={tab}
               onClick={() => setSelectedTab(item)}

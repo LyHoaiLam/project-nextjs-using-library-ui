@@ -45,5 +45,23 @@
   "TextAnimation": {
     "title": "Component FAQ Tailwind CSS miễn phí",
     "description": "Một giao diện hỗ trợ người dùng gọn gàng, có cấu trúc rõ ràng và dễ điều hướng, trong đó thông tin được chia thành các khối logic kèm biểu tượng và danh sách các câu hỏi phổ biến."
+  },
+  "Scroll": {
+    "scroll04": {
+      "textOne": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Không có gì quan trọng hơn việc chăm sóc khách hàng, để rồi được khách hàng theo đuổi. Ngay cả đối với những người đang yêu. Cho đến khi một số người lo sợ, vì mục đích của cuộc sống là sự mềm mỏng, khối lượng của khóa học là con sư tử, để giới hạn lớn nhất của nỗi sợ hãi không phải là trước đó. Hiện tại cần phát triển sự nghiệp, để tổ chức cuộc sống. Trong ngôi nhà này, chúng tôi sống theo những gì đã định sẵn. Trong các giai đoạn của nỗi đau, yếu tố của sự bất công không phải là những mũi tên. Toàn bộ hành lang luôn là đôi, ai là người tự do cuối cùng không cần yếu tố đó. Một số người chọn đọc từ một sự xen kẽ giữa các cá nhân, kết quả là những thay đổi trong túi tiền. Hiện tại nhưng từ việc uống rượu, men của sự tra tấn không phải là, sự phát triển của tăng trưởng. Maecenas trong hành lang của cuộc sống, tại thực tế là muốn. Cho đến khi sự dễ dàng của sự trong sạch nhưng bị ảnh hưởng bởi kết quả. Hai là sự gia tăng, việc uống rượu ai uống nhưng, sự sợ hãi hay tình yêu. Mỗi người cho đến khi trừ khi nhưng là nỗi buồn của sự phát triển. Một số nỗi sợ hãi là cần thiết cho sự thống trị của các thành viên. Để hoặc tác giả của sự đau khổ, con đường của bài đọc, thời gian bây giờ. Chúng tôi sống không phải là sự trang trí của giới thượng lưu, lời nói của chiếc bình là sự quan tâm, sự trang trí của viên kim cương. Không có lời nói nào về vòng cung của cuộc đời ghét những đòn tấn công của sự trả thù."
+    }
+  },
+  "Tabs": {
+    "tab01": {
+      "title01": "Núi",
+      "title02": "Núi",
+      "title03": "Núi",
+      "name01": "Đỉnh Lassen",
+      "name02": "Núi Shasta",
+      "name03": "Đỉnh Euraka",
+      "des01": "Một thực tế đã được khẳng định từ lâu là người đọc sẽ dễ dàng bị xao nhãng bởi nội dung có thể đọc được của một trang web khi nhìn vào bố cục của nó.",
+      "des02": "Một thực tế đã được khẳng định từ lâu là người đọc sẽ dễ dàng bị xao nhãng bởi nội dung có thể đọc được của một trang web khi nhìn vào bố cục của nó. Một thực tế đã được khẳng định từ lâu là người đọc sẽ dễ dàng bị xao nhãng bởi nội dung có thể đọc được của một trang web khi nhìn vào bố cục của nó. Một thực tế đã được khẳng định từ lâu là người đọc sẽ dễ dàng bị xao nhãng bởi nội dung có thể đọc được của một trang web khi nhìn vào bố cục của nó. Một thực tế đã được khẳng định từ lâu là người đọc sẽ dễ dàng bị xao nhãng bởi nội dung có thể đọc được của một trang web khi nhìn vào bố cục của nó.",
+      "des03": "Một thực tế đã được khẳng định từ lâu là người đọc sẽ dễ dàng bị xao nhãng bởi nội dung có thể đọc được của một trang web khi nhìn vào bố cục của nó."
+    }
   }
 }
