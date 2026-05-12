@@ -63,5 +63,57 @@
       "des02": "Một thực tế đã được khẳng định từ lâu là người đọc sẽ dễ dàng bị xao nhãng bởi nội dung có thể đọc được của một trang web khi nhìn vào bố cục của nó. Một thực tế đã được khẳng định từ lâu là người đọc sẽ dễ dàng bị xao nhãng bởi nội dung có thể đọc được của một trang web khi nhìn vào bố cục của nó. Một thực tế đã được khẳng định từ lâu là người đọc sẽ dễ dàng bị xao nhãng bởi nội dung có thể đọc được của một trang web khi nhìn vào bố cục của nó. Một thực tế đã được khẳng định từ lâu là người đọc sẽ dễ dàng bị xao nhãng bởi nội dung có thể đọc được của một trang web khi nhìn vào bố cục của nó.",
       "des03": "Một thực tế đã được khẳng định từ lâu là người đọc sẽ dễ dàng bị xao nhãng bởi nội dung có thể đọc được của một trang web khi nhìn vào bố cục của nó."
     }
+  },
+  "scroll-progress-bar": {
+    "ai_impact_page": {
+      "header": {
+        "title": "Cuộc Cách Mạng AI Trong Lập Trình: Từ Công Cụ Đến Người Cộng Sự",
+        "subtitle": "Phân tích chuyên sâu về sự chuyển dịch kỷ nguyên phát triển phần mềm và tác động toàn cầu"
+      },
+      "section_1_evolution": {
+        "title": "1. Sự Tiến Hóa Của Tư Duy Lập Trình",
+        "content_p1": "Trí tuệ nhân tạo (AI) đã không còn là một khái niệm trừu tượng. Trong lĩnh vực lập trình, nó đánh dấu bước ngoặt từ 'lập trình thủ công' sang 'lập trình cộng tác'. Trước đây, lập trình viên phải ghi nhớ hàng nghìn cú pháp và quy tắc của các ngôn ngữ như Java, C++ hay Python. Giờ đây, trọng tâm đã dịch chuyển sang tư duy hệ thống và khả năng điều phối AI thông qua Prompt Engineering. Chúng ta đang tiến tới một kỷ nguyên mà kiến thức về logic quan trọng hơn việc thuộc lòng cú pháp.",
+        "list_items": [
+          "Thay đổi từ gõ mã nguồn sang kiểm duyệt mã nguồn: Lập trình viên trở thành những 'editor' cho các đoạn mã do AI tạo ra, đảm bảo tính đúng đắn và hiệu suất.",
+          "Xóa bỏ rào cản ngôn ngữ: AI cho phép một chuyên gia JavaScript có thể nhanh chóng nắm bắt và viết logic cho dự án Rust hoặc Go chỉ trong thời gian ngắn mà không cần học lại từ đầu.",
+          "Tự động hóa các tác vụ lặp lại (Boilerplate): Các đoạn mã thiết lập server, kết nối database hay định nghĩa schema giờ đây chỉ mất vài giây thay vì hàng giờ làm việc căng thẳng.",
+          "Nâng cao khả năng tiếp cận: AI giúp những người mới bắt đầu dễ dàng tiếp cận với các công nghệ phức tạp hơn thông qua việc giải thích code thời gian thực."
+        ]
+      },
+      "section_2_technical": {
+        "title": "2. Tác Động Lên Toàn Bộ Quy Trình SDLC (Software Development Life Cycle)",
+        "sub_sections": [
+          {
+            "heading": "Phân tích và Thiết kế Hệ thống",
+            "detail": "AI có khả năng phân tích các tài liệu yêu cầu (BRD) phức tạp để gợi ý sơ đồ thực thể (ERD), thiết kế cơ sở dữ liệu và kiến trúc Microservices tối ưu. Nó giúp dự báo các điểm nghẽn về hiệu suất ngay từ giai đoạn sơ thảo."
+          },
+          {
+            "heading": "Lập trình, Tối ưu hóa và Refactoring",
+            "detail": "Sử dụng LLMs để thực hiện refactoring mã nguồn quy mô lớn. AI có thể phát hiện các lỗi logic tiềm ẩn, lỗi n+1 query trong SQL hoặc rò rỉ bộ nhớ trong ứng dụng React/Next.js mà mắt thường thường bỏ qua."
+          },
+          {
+            "heading": "Kiểm thử tự động (AI-Driven Testing)",
+            "detail": "Tự động tạo ra các bộ test cases bao phủ toàn bộ luồng nghiệp vụ. AI có thể giả lập hàng nghìn kịch bản người dùng khác nhau để kiểm tra độ bền của hệ thống, giúp giảm thiểu rủi ro khi release sản phẩm."
+          },
+          {
+            "heading": "Bảo mật và Quản lý lỗ hổng",
+            "detail": "AI quét mã nguồn để tìm kiếm các lỗ hổng như XSS, SQL Injection hoặc các mã độc được cài cắm tinh vi, đồng thời gợi ý ngay các bản vá lỗi theo tiêu chuẩn ngành."
+          },
+          {
+            "heading": "DevOps và CI/CD thông minh",
+            "detail": "Tự động hóa việc viết file cấu hình Docker, Kubernetes và giám sát hệ thống. AI có thể tự động phân tích logs để phát hiện bất thường và kích hoạt cơ chế tự phục hồi (self-healing) cho server."
+          }
+        ]
+      },
+      "section_3_future": {
+        "title": "3. Tương Lai, Đạo Đức và Kỹ Năng Cần Thiết",
+        "content": "Sự bùng nổ của AI đặt ra các câu hỏi lớn về bản quyền mã nguồn và sự 'lười biếng tư duy'. Lập trình viên tương lai không chỉ là người viết code, mà là những kiến trúc sư giải pháp. Kỹ năng quan trọng nhất sẽ là khả năng đặt câu hỏi, tư duy phản biện để kiểm chứng kết quả từ AI và sự nhạy bén trong việc áp dụng công nghệ vào bài toán kinh doanh.",
+        "closing_list": [
+          "Làm chủ Prompt Engineering: Kỹ năng ra lệnh chính xác cho AI.",
+          "Kiến thức nền tảng vững chắc: Hiểu bản chất thuật toán để không bị phụ thuộc vào công cụ.",
+          "Đạo đức nghề nghiệp: Đảm bảo mã nguồn AI tạo ra không vi phạm bảo mật và quyền sở hữu trí tuệ."
+        ]
+      }
+    }
   }
 }
