@@ -1,0 +1,144 @@
+.ghp-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.ghp-list {
+    display: flex;
+    position: relative;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* LI keeps pseudo-elements & glow */
+.ghp-item {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 60px;
+    transition: 0.5s;
+}
+
+/* clickable element */
+.ghp-btn {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+}
+
+/* gradient overlay */
+.ghp-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 60px;
+    background: linear-gradient(45deg, var(--i), var(--j));
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.ghp-item::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+    background: linear-gradient(45deg, var(--i), var(--j));
+    transition: 0.5s;
+    filter: blur(15px);
+    z-index: -1;
+    opacity: 0;
+}
+
+/* expand on hover */
+.ghp-item:hover {
+    width: 180px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
+}
+
+.ghp-item:hover::before {
+    opacity: 1;
+}
+
+.ghp-item:hover::after {
+    opacity: 0.5;
+}
+
+/* icon */
+.ghp-icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ghp-ico {
+    color: #777;
+    font-size: 1.75em;
+    transition: 0.5s;
+    transition-delay: 0.25s;
+}
+
+/* class cha "ghp-item" hover thì class con "ghp-ico" sẽ thay đổi 
+Nghĩa là: khi chuột đặt lên .ghp-item, thì .ghp-ico nằm bên trong sẽ bị áp style này.
+
+transform: scale(0);: thu nhỏ icon về 0% kích thước ⇒ icon biến mất (co lại về một điểm).
+(Nó không “ẩn” bằng display:none, mà là vẫn tồn tại nhưng scale về 0.)
+
+color: #fff;: đổi màu icon sang trắng.
+Thực tế vì icon đang scale(0) nên bạn gần như không thấy, nhưng màu này quan trọng nếu transition/hover-out có hiệu ứng hoặc có lúc icon vẫn còn visible.
+
+transition-delay: 0s;: khi hover vào, không trì hoãn animation; nó chạy ngay lập tức.
+(Trong code trước đó thường có transition-delay: 0.25s; ở trạng thái bình thường để icon “đợi” một chút trước khi biến mất, còn khi hover thì cho biến mất ngay.)
+*/
+.ghp-item:hover .ghp-ico {
+    transform: scale(0);
+    color: #fff;
+    transition-delay: 0s;
+}
+
+/* title text */
+.ghp-title {
+    position: absolute;
+    color: #fff;
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transform: scale(0);
+    transition: 0.5s;
+    transition-delay: 0s;
+    white-space: nowrap;
+}
+
+.ghp-item:hover .ghp-title {
+    transform: scale(1);
+    transition-delay: 0.25s;
+}
+
+/* keyboard accessibility */
+.ghp-btn:focus-visible {
+    outline: 3px solid rgba(0, 0, 0, 0.35);
+    outline-offset: 6px;
+    border-radius: 999px;
+}
+
+.ghp-btn:focus-visible~.ghp-title {
+    transform: scale(1);
+}
