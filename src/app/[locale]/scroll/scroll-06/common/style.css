@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.scroll-wrap {
+  position: relative;
+}
+
+.scroll-wrap li {
+  height: 100vh;
+}
+
+.movie {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background: #111;
+}
+
+.movie .bg {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.movie .bg img {
+  transition: 1s;
+}
+
+.movie.step-2 .bg img {
+  transform: scale(0.9);
+}
+
+.movie.step-3 .bg img {
+  transform: scale(0.8);
+}
+
+.story,
+.actor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  opacity: 0;
+  transition: 1s;
+}
+
+.story:before,
+.actor:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: bottom;
+}
+
+.story-content,
+.actor ul {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 10%;
+  width: 600px;
+  transform: scale(2);
+  transition: 1s;
+}
+
+.actor ul {
+  margin-bottom: 20%;
+}
+
+.actor ul li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.actor ul li + li {
+  margin-left: 40px;
+}
+
+.movie.step-2 .story,
+.movie.step-3 .story {
+  opacity: 1;
+}
+
+.movie.step-2 .story-content {
+  transform: scale(1);
+}
+
+.movie.step-3 .story-content {
+  transform: scale(0.5);
+}
+
+.movie.step-3 .actor {
+  opacity: 1;
+}
+
+.movie.step-3 .actor ul {
+  transform: scale(1);
+}
